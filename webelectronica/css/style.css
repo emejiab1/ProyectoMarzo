@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+html{
+	min-height: 100%;
+}
+
+
+
+/*Estilos de la cabecera*/
+
+#principal h1{
+	color: #ffee00;
+	font-family: dameron;
+	font-size: 3rem;
+	font-style: bolder;
+	padding-top: 25px;
+}
+
+#principal{
+	background: linear-gradient(to right, lightgray, gray, gray, gray, #553333, darkred, darkred);
+	display: inline-block;
+	width: 100%;
+}
+
+#logo{
+	float: left;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 55px;
+	width: 75px;
+}
+
+#logo2{
+	float: left;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 55px;
+	width: 150px;
+}
+
+#principal ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#principal ul a{
+	color: #ffee00;
+	display: block;
+	font-size: 1.3rem;
+	padding: 5px;
+	text-decoration: none;
+	width: 100%;
+}
+
+#principal ul li{
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#principal ul li:hover{
+	background-color: gray;
+}
+
+
+
+/*Estilos del contenido principal*/
+
+main{
+	padding: 2%;
+}
+
+section{
+	padding: 2%;
+}
+
+#fotos{
+	float: left;
+	width: 23%;
+}
+
+article{
+	background-color: #ddd;
+	border-color: gray;
+	border-width: 1px;
+	border-radius: 20px;
+	border-style: solid;
+	float: right;
+	font-size: 2rem;
+	margin-bottom: 2%;
+	padding: 1%;
+	text-align: justify;
+	width: 70%;
+}
+
+article h2{
+	font-size: 2.5rem;
+}
+
+div{
+	margin-top: 3%;
+}
+
+
+
+/*Estilos del formulario de login*/
+
+.tituloLogin{
+	text-align: center;
+}
+
+#formLogin{
+	margin: auto;
+	width: 50%;
+}
+
+fieldset{
+	background-color: #aaa;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10%;
+	width: 80%;
+}
+
+.iptLogin{
+	background-color: #ddd;
+	border: none;
+	border-bottom-color: #aaa;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	font-size: 1.2rem;
+	padding: 5px;
+	width: 100%;
+}
+
+.btnLogReg{
+	font-size: 1.5rem;
+	width: 200px;
+}
+
+legend{
+	text-align: center;
+}
+
+.linkReg{
+	color: blue;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+/*Estilos del pie de página*/
+
+footer{
+	background-color: gray;
+	clear: left;
+	color: white;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+

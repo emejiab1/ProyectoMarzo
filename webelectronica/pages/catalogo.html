@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Productos</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header id="principal">
+        <img id="logo2" src="../images/logo.png" alt="Logo Electrónica Thor" title="Electrónica Thor">
+        <h1>ELECTRÓNICA THOR</h1>
+
+        <!--barra de navegación para ingresar al sitio-->
+        <nav>
+            <ul>
+                <li><a href="login.html">Entrar</a></li>
+                <li><a href="agregar-producto.html">Nuevo Producto</a></li>
+                <li><a href="pedido.html">Mi Pedido</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+	<div class="container">
+
+        <header>
+            <h1 class="text-center">Nuestros Productos</h1>
+        </header>
+
+        <h3><a href="pedido.html">Realizar Pedido</a></h3>
+
+        <form action="">
+            
+            <table class="table  table-striped">
+                <thead style="background-color: black; color: white;">
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Imagen</th>
+                    </tr>
+                </thead>
+                <tbody id="idTableBody2">
+
+                </tbody>
+            </table>
+
+        </form>
+
+    </div>
+
+    <footer>
+        &copy; Electrónica Thor - 2020
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script type="text/javascript">mostrarProductos()</script>
+</body>
+</html>
